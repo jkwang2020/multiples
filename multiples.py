@@ -10,8 +10,6 @@ while valid == False:
 	except:
 		numb = input("That wasn't a number! Try again: ")
 
-# Double it
-numb *= 2
-
-# Print result
-print("Double your number is " + str(numb))
+# Print multiples
+for x in range(1, 11):
+	print("{} times {} is equal to {}.".format(x, numb, (x * numb)))
